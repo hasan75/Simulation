@@ -4,6 +4,9 @@ import numpy
 import matplotlib.pyplot as plt
 
 # Parameters
+'''
+	M/M/k queuing simulation using python
+'''
 class Params:
     def __init__(self, lambd, omega, k):        
         self.lambd = lambd 
